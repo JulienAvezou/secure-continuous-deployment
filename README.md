@@ -31,3 +31,12 @@ Can remove need for user to authenticate in pipeline by using AWS Role
 -> uses permissions attached to role to execute actions
 <img width="1030" alt="Capture d’écran 2024-06-08 à 16 42 17" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/0f0b6e39-8388-4a33-b6d4-30bea7da704f">
 <img width="647" alt="Capture d’écran 2024-06-08 à 16 30 50" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/ae5d4fb6-f2d7-404e-8c7c-63e729035441">
+
+DAST - Dynamic Application Testing
+-> how does running app respond to attacks
+ie. ZAP (Zed Attack Proxy) tool: can run baseline scan in release pipeline + full scan that actually send attack payloads in dedicated pipeline daily (to not block release)
+-> run this test in pre-production environments
+
+
+6. Configure DAST step in pipeline to identify and remediate any found issues
+<img width="521" alt="Capture d’écran 2024-06-08 à 18 00 29" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/a09e36ba-cbbc-4303-863c-963bfef19dda">
