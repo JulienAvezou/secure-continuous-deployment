@@ -21,3 +21,7 @@ By default on many EC2 it is installed
 4. Ensure that user running the pipeline has permissions to run SSM cmd
 <img width="579" alt="Capture d’écran 2024-06-07 à 18 28 33" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/92553bce-27cc-4af3-9f67-238ec90787b7">
 <img width="789" alt="Capture d’écran 2024-06-07 à 18 42 34" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/f81977dc-a7a6-442a-8b74-da714161879d">
+
+5. Run deployment cmd via SSM in pipeline
+<img width="814" alt="Capture d’écran 2024-06-08 à 11 49 48" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/8c938281-1ccb-4b7d-8287-2d83fd712214">
+<img width="1057" alt="Capture d’écran 2024-06-08 à 11 50 15" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/dc2300a1-8b69-4534-bfbb-3a20d0690b40">
