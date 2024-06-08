@@ -25,3 +25,9 @@ By default on many EC2 it is installed
 5. Run deployment cmd via SSM in pipeline
 <img width="814" alt="Capture d’écran 2024-06-08 à 11 49 48" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/8c938281-1ccb-4b7d-8287-2d83fd712214">
 <img width="1057" alt="Capture d’écran 2024-06-08 à 11 50 15" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/dc2300a1-8b69-4534-bfbb-3a20d0690b40">
+
+Can remove need for user to authenticate in pipeline by using AWS Role
+-> uses temporary credentials with auto rotation (removes static credentials in pipeline)
+-> uses permissions attached to role to execute actions
+<img width="1030" alt="Capture d’écran 2024-06-08 à 16 42 17" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/0f0b6e39-8388-4a33-b6d4-30bea7da704f">
+<img width="647" alt="Capture d’écran 2024-06-08 à 16 30 50" src="https://github.com/JulienAvezou/secure-continuous-deployment/assets/62488871/ae5d4fb6-f2d7-404e-8c7c-63e729035441">
